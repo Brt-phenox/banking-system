@@ -1,2 +1,3 @@
 # banking system
-simple python banking system gui
+
+simple python banking system
