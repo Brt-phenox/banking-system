@@ -30,10 +30,10 @@ def run(users):
                 print()
         
         elif choice =="2":
-            user_ban=input("Enter name to ban")
+            user_ban=input("Enter  user name to ban")
             if user_ban in users:
                 users[user_ban]["banned"] = True
-                print(user_ban, "is now banned")
+                print("*/----",user_ban, "is now banned ----/*")
             else:
                 print("User not found")
 

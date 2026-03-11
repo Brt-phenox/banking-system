@@ -1,11 +1,12 @@
 
 
 def run(users):
-    print("_________________")
-    print("  HELLLO USER   ")
-    print("----------------")
+    print("__________________")
+    print(" | HELLLO USER |  ")
+    print("-----------------")
     name = input("username:")
     pw = input("password:")
+    print("-----------------")
 
     if name not in users:
         print("User not found enter valid user name")
@@ -24,6 +25,7 @@ def run(users):
             print("3. Exit")
             
             choice = input("Choose:")
+            print("----------------------")
 
             if choice == "1":
                 print(users[name]["balance"])
