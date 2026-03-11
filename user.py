@@ -1,17 +1,20 @@
 
 
 def run(users):
+    print("_________________")
+    print("  HELLLO USER   ")
+    print("----------------")
     name = input("username:")
     pw = input("password:")
 
     if name not in users:
-        print("User vetena")
+        print("User not found enter valid user name")
 
     elif users[name]["password"] != pw:
-        print("password milena")
+        print("|password incorrect|")
 
     elif users[name]["banned"]:
-        print("Ban vako chas")
+        print("User id has been ban")
     else:
         print("Welcome" + name)    
 
