@@ -11,7 +11,7 @@ while True:
         print("1: Admin")
         print("2: User")
         print("---------------------")
-        choice=input("Choose admin or user : ")
+        choice=input("Choose admin or user :  ")
 
         if choice =="1":
             admin.run(users)
