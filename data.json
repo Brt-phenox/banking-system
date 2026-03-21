@@ -1,0 +1,28 @@
+{
+    "Test1": {
+        "password": "pass1",
+        "balance": 500000,
+        "banned": false
+    },
+    "Test2": {
+        "password": "pass2",
+        "balance": 500000,
+        "banned": false
+    },
+    "Test3": {
+        "password": "pass3",
+        "balance": 500000,
+        "banned": false
+    },
+    "Test4": {
+        "password": "pass4",
+        "balance": 500000,
+        "banned": false
+    },
+    "Apple": {
+        "password": "apple123",
+        "balance": 0,
+        "banned": false,
+        "history": []
+    }
+}
