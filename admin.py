@@ -6,6 +6,7 @@ def run(users):
     #admin password
     if admin_password !="admin123":
         print("Wrong Password")
+        return 
     else:
         print("--------------------")   
         print("WELCOME ADMIN")
@@ -41,7 +42,7 @@ def run(users):
             break 
 
         else:
-            print("invalid")
+            print("invalid choice")
 
 
       
