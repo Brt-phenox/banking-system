@@ -78,7 +78,7 @@ def run(users):
                 break
             else :
                 print("invalid")
-
+#Registration page
 def register(users):
     print("\n---User Register---")
     username = input("Enter username:")
