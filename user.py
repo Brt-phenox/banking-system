@@ -43,8 +43,9 @@ def run(users):
         while True:
             print("1. Check balance")
             print("2. Deposite")
-            print("3. Transaction history")
-            print("4. Exit")
+            print("3. Withdraw")
+            print("4. Transaction history")
+            print("5. Exit")
             
             choice = input("Choose:")
             print("----------------------")
@@ -55,11 +56,25 @@ def run(users):
                 amount=float(input("Kati??"))
                 users[name]["balance"] += amount
                 print(users[name]["balance"])
-            elif choice == "3":   
+            elif choice =="3":
+                try:
+                    amount = float(input("Enter withdraw amount: "))
+
+                    if amount > users[name]["balance"]:
+                      print("Insufficient balance ")
+                      continue
+                    
+                    users[name]["balance"] -= amount
+                    print("Remaining balance:", users[name]["balance"])
+                    print("--------------------------")
+
+                except:
+                     print("Invalid input ")
+            elif choice == "4":   
                 print("\n----Transaction History----")
                 for h in users[name]["history"]:
                     print("-",h)
-            elif choice == "4" :
+            elif choice == "5" :
                 break
             else :
                 print("invalid")
