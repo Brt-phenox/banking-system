@@ -7,6 +7,7 @@ phase 2 simple bank management system
 # 🏦 Simple CLI Banking Management System
 
 A **Python-based terminal application** that simulates a banking environment with separate interfaces for **Users** and **Administrators**. The system uses a modular approach with **persistent JSON storage** to handle financial records securely.
+easy to use and maintain
 
 ---
 
